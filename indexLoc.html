@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<title>Welcome to Contact Checker!</title>
+<script type="module" src="https://unpkg.com/lodash@4.16.6"></script>
+<style>
+    body {
+        width: 35em;
+        margin: 0 auto;
+        font-family: Tahoma, Verdana, Arial, sans-serif;
+
+    }
+</style>
+</head>
+
+
+<body>
+
+
+<h2>Contact Graph</h2>
+
+<!-- <label for="Subject ID">Subject ID:</label><br>
+  <input type="text" id="sid" name="sid" ><br>
+  <label for="Day">Day:</label><br>
+  <input type="text" id="day" name="day" ><br><br> -->
+
+<form action="python_help.php" method="get">
+  <label for="Subject ID">Subject ID:</label><br>
+    <input type="text" id="sid" name="sid" ><br>
+    <label for="Day">Day:</label><br>
+    <input type="text" id="day" name="day" ><br><br>
+  </form>
+
+<button id="demo" onclick="myFunction()">Show contact graph.</button>
+<h2 id="endgoal"></h2>
+
+
+</body>
+<script type="module" src="graph.js"></script>
+
+</html>
